@@ -1,0 +1,22 @@
+
+.tools{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 12px;
+     margin: 70px;
+     width: 75%;
+     height: 500px;
+     margin-top: 20px;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.tools img {
+    align-items: center;
+    width: 95px;
+    height: 100px;
+
+
+}
+

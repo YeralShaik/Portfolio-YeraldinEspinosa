@@ -1,0 +1,98 @@
+.main-container {
+    display: flex;
+    flex-direction: row; 
+    width: auto;
+    margin-left: 70px;
+    margin-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 200px;
+
+  }
+
+  #name {
+    color: #e7e7e7; /* Color del texto */
+    text-shadow: 0 0 15px #e80664; /* Sombra del texto */
+  }
+
+
+  .main-text {
+    width: 100%;
+
+    margin-top: 10px;
+    text-align: left;
+    padding: 12px;
+    order: 1;
+    font-size: 28px;
+    margin-left: 50px;
+      color: #eeeeee;
+  }
+
+  .main-img {
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 220px;  
+    order: 2;
+    align-items: center;
+    justify-content: center;
+  }
+
+h1 {
+  margin: 4px;
+}
+ 
+  .text-occupation{
+    margin-top: 4px;
+    padding-top: 8px;
+    color: rgb(255, 254, 204);
+    font-size: 30px;
+  }
+
+.Contact {
+    width: 130px;
+    height: 48px;
+    margin-top: 16px;
+    color: #d6d6d6;
+    background: #e80664;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold;
+      overflow: hidden;
+  box-shadow: 0 0 20px #e80664;
+  }
+.Contact:hover {
+  background-color: #540489;
+  color: var(--secondary);
+    overflow: hidden;
+  box-shadow: 0 0 20px #e80664;
+}
+
+  .imgProfile {
+    flex: 2; /* Ajusta este valor según sea necesario para dar más espacio a imgProfile */
+    flex-basis: 0;
+    background-color: rgb(209, 167, 207);
+    border: solid #d6d6d6;
+    box-shadow: 0 0 28px #3c0263; /* Sombra del texto */
+    width: 110%;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+
+  }
+  
+
+  .footer {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+  }
+
+
+  .bienvenida {
+    font-size: 12px;
+    margin-top: 10px;
+  }
