@@ -8,6 +8,7 @@ import { Tools } from './Tool/Tools';
 import { AboutMe } from './About/About';
 
 import './App.css'
+import Proyectos from './Proyectos';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/Sobre Mi" element={<AboutMe />} />
           <Route path="/Habilidades" element={<Tools />} />
+          <Route path="/Proyectos" element={<Proyectos />} />
           <Route path="/" element={<Home />} />
 
         </Routes>

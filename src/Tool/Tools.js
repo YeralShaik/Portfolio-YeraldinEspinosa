@@ -21,7 +21,7 @@ const Tools = () => {
 
 return (
     <div className="tools">
-    <h1>SKILLS</h1>
+    <h1>Habilidades</h1>
     <img src={Photoshop} alt="photoshop"/>
     <img src={Illustrator} alt="illustrator"/>
     <img src={Git} alt=""/>

@@ -1,4 +1,6 @@
-.main-container {
+/*Home*/
+
+.Home-container {
     display: flex;
     flex-direction: row; 
     width: auto;
@@ -10,12 +12,12 @@
   }
 
   #name {
-    color: #e7e7e7; /* Color del texto */
-    text-shadow: 0 0 15px #e80664; /* Sombra del texto */
+    color: #fdff81; 
+    text-shadow: 0 0 8px #4e052a; 
   }
 
 
-  .main-text {
+  .Home-text {
     width: 100%;
 
     margin-top: 10px;
@@ -27,7 +29,7 @@
       color: #eeeeee;
   }
 
-  .main-img {
+  .Home-img {
     position: relative;
     display: inline-block;
     margin-top: 0px;
@@ -48,10 +50,15 @@ h1 {
     font-size: 30px;
   }
 
+
+  .bienvenida {
+    font-size: 20px;
+    margin-top: 24px;
+  }
 .Contact {
     width: 130px;
     height: 48px;
-    margin-top: 16px;
+    margin-top: 32px;
     color: #d6d6d6;
     background: #e80664;
     border-radius: 10px;
@@ -59,13 +66,13 @@ h1 {
     font-size: 16px;
     font-weight: bold;
       overflow: hidden;
-  box-shadow: 0 0 20px #e80664;
+  box-shadow: 0 0 8px #4e052a;
   }
 .Contact:hover {
   background-color: #540489;
   color: var(--secondary);
     overflow: hidden;
-  box-shadow: 0 0 20px #e80664;
+  box-shadow: 0 0 10px #e80664;
 }
 
   .imgProfile {
@@ -78,7 +85,7 @@ h1 {
     height: auto;
     border-radius: 50%;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 
   }
   
@@ -89,10 +96,4 @@ h1 {
     justify-content: center;
     align-items: end;
     gap: 30px;
-  }
-
-
-  .bienvenida {
-    font-size: 12px;
-    margin-top: 10px;
   }

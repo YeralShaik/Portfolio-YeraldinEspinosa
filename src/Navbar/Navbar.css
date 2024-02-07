@@ -57,7 +57,8 @@ ul {
 
 /* Estilos para los enlaces activos en la barra de navegación */
 .navBar-container ul li a.active {
-  color: #ff00b3; /* Fucsia */
+  color: #fdff81; 
+  text-shadow: 0 0 8px #4e052a; 
  
 }
 

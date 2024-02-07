@@ -1,4 +1,11 @@
-
+.tools h1 {
+    margin: 50px;
+    width: 100%;
+    text-align: left;
+    font-size: 36px;
+    color: #fdff81; 
+    text-shadow: 0 0 8px #4e052a; 
+}
 .tools{
      display: flex;
      flex-wrap: wrap;
@@ -15,7 +22,8 @@
 .tools img {
     align-items: center;
     width: 95px;
-    height: 100px;
+    height: 95px;
+    gap: 6px;
 
 
 }
