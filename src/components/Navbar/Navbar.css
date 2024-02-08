@@ -1,3 +1,5 @@
+
+
 /* Estilos para el contenedor de la barra de navegación */
 .navBar-container {
   width: 95%;
@@ -77,3 +79,63 @@ ul {
 }
 
 
+@media only screen and (max-width: 780px) {
+  .navBar-container {
+    width: 100%;
+    padding-right: 42px;
+  
+  }
+  
+  .navlogo{
+    width: 150px;
+    margin: 0;
+    height: 100px;
+   
+  }
+  
+/* Estilos para el texto dentro del logo */
+.navlogo p {
+   font-size: 20px;
+  
+  
+}
+
+/* Estilos para la lista en la barra de navegación */
+ul {
+  padding-left: 10%;
+  gap: 16px;
+ 
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+.navBar-container ul li a {
+  font-size: 16px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+
+ 
+  
+/* Estilos para el texto dentro del logo */
+.navlogo p {
+   font-size: 24px;
+  
+}
+
+/* Estilos para la lista en la barra de navegación */
+ul {
+  padding-left: 10%;
+  gap: 16px;
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+.navBar-container ul li a {
+  font-size: 16px;
+}
+
+
+}

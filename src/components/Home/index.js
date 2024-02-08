@@ -32,7 +32,7 @@ const Home = () => {
           Contacto
         </button>
       </div>
-      <div className="img">
+      <div className="img-container">
         <img className="imgProfile" src={ImgProfile} alt="profilephoto" />
         <div className="footer">
           <a href="https://www.linkedin.com/in/yeraldin-espinosa-716493197/" target="_blank" rel="noopener noreferrer">

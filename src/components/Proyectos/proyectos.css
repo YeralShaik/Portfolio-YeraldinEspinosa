@@ -91,3 +91,104 @@ h2 {
   height: 200px;
   background: #fdff81;
 }
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .project-container{
+    padding: 20px;
+    height: auto;
+    margin: 40px 40px 40px 40px  ;
+    background: #e2dfe128;
+    border-radius: 12px;
+    width: auto;
+    
+}
+
+.project-container h2 {
+  margin-top: 16px;
+}
+.project {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+
+}
+
+.project-img {
+    width: 280px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+    background: #e80664;
+  }
+  
+  .tools-list {
+    
+    gap: 10px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.719);
+    margin: 0px;
+    padding: 10px;
+    padding-top: 10px;
+  }
+
+.github-link,
+.additional-link {
+ 
+  margin-left: 40%;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .project-container{
+    padding: 20px;
+    height: auto;
+    margin: 40px 40px 40px 40px  ;
+    background: #e2dfe128;
+    border-radius: 12px;
+    width: auto;
+    
+}
+
+.project-container h2 {
+  margin-top: 16px;
+}
+.project {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+
+}
+
+.project-img {
+    width: 280px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+    background: #e80664;
+  }
+  
+  .tools-list {
+    
+    gap: 10px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.719);
+    margin: 0px;
+    padding: 10px;
+    padding-top: 10px;
+  }
+
+.github-link,
+.additional-link {
+ 
+  margin-left: 40%;
+}
+}
